@@ -1,7 +1,17 @@
-# Bash-Script
-Homework assignment 2 solution for Cloud Computing course.
+# Bash-Script 
+Homework assignment 2 solution for Cloud Computing course, Contains Implementation of Two Scripts, LinuxStatus script and cronJob script.
 
-**First Script - LinuxStatus:**
+## **First Script - LinuxStatus:**
+
+**To create a bash script in Linux:**
+
+**Step 1:** Open Terminal and run this command: `touch LinuxStatus.sh`.
+
+**Step 2:** Open and edit the Script file by run this command: `sudo nano LinuxStatus.sh`.
+
+**Step 3:** Write the Script as in this file: **[LinuxStatus.sh](https://github.com/AmeerQatmosh/Bash-Script/blob/main/LinuxStatus.sh)**
+
+**Step 4:** to test the script run this command: `bash LinuxStatus.sh`.
 
 To add the script to your Linux PATH, follow these steps:
 
@@ -12,7 +22,7 @@ To add the script to your Linux PATH, follow these steps:
 After completing these steps, you should be able to run the LinuxStatus command from anywhere in your Linux terminal.
 
 
-**Second Script - cronJob:**
+## **Second Script - cronJob:**
 
 * To run this script as a cronjob daily at midnight, you can add the following line to your crontab:
 
