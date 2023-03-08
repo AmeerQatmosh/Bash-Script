@@ -1,5 +1,5 @@
-# Bash-Script 
-Homework assignment 2 solution for Cloud Computing course, Contains Implementation of Two Scripts, LinuxStatus script and cronJob script.
+# Bash-Script - Cloud Computing
+**Bash script** is a type of script that is written in the Bash programming language, which is a Unix shell and command language,It is commonly used in Linux and Unix-based operating systems as a means of automating repetitive tasks and simplifying complex operations.
 
 ## **First Script - LinuxStatus:**
 
@@ -40,6 +40,9 @@ For Example: run these commands:
 
 Mix options for example `LinuxStatus p r c ` for option 1,2,4.
 
+### This following Demo shows how the script implemented:
+
+[LinuxStatus Script Demo.webm](https://user-images.githubusercontent.com/68341128/223609567-49d65da7-9e56-4b09-adaa-1405426c9959.webm)
 
 After completing these steps, you should be able to run the LinuxStatus command from anywhere in your Linux terminal.
 
@@ -58,6 +61,9 @@ After completing these steps, you should be able to run the LinuxStatus command 
 
 ![image](https://user-images.githubusercontent.com/68341128/223587537-937e725d-014b-42c1-a923-97a2e23c8cca.png)
 
+Run this command to make sure that the installition is successed, `curl -I http://localhost`
+
+![image](https://user-images.githubusercontent.com/68341128/223607319-2fa05f4c-007d-419a-bd1b-da8e60ffc4c4.png)
 
 ### To run this script as a cronjob daily at midnight, do the following Steps:
 
@@ -67,8 +73,7 @@ After completing these steps, you should be able to run the LinuxStatus command 
 
 ![image](https://user-images.githubusercontent.com/68341128/223590527-9de016cd-7a34-4a93-bbc9-c253dad083b0.png)
 
-3. Add this line to the end of the file: **`0 0 * * * /bin/bash /path/to/cronjob.sh`** and make sure to give the right path for cronJob.sh file:
-* Make sure to replace /path/to/cronjob.sh with the actual path to your bash script.
+3. Add this line to the end of the file: **`0 0 * * * /bin/bash /path/to/cronjob.sh`** and make sure to give the right path for cronJob.sh file, In other words Make sure to replace /path/to/cronjob.sh with the actual path to your bash script:
 
 ![image](https://user-images.githubusercontent.com/68341128/223590196-bfcb3442-18d0-4fab-99a0-1e60aed54296.png)
 
