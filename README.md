@@ -29,10 +29,15 @@ Homework assignment 2 solution for Cloud Computing course, Contains Implementati
 
 7. After this you can run the script in anywhare in terminal, and with an any options, 
 For Example: run these commands:
-`LinuxStatus p` for option 1
-`LinuxStatus r` for option 2
-`LinuxStatus h` for option 3
-`LinuxStatus a` for option 4
+
+`LinuxStatus p` for option 1.
+
+`LinuxStatus r` for option 2.
+
+`LinuxStatus h` for option 3.
+
+`LinuxStatus a` for option 4.
+
 `LinuxStatus p r h a` mix options.
 
 
