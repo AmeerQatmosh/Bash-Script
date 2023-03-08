@@ -38,7 +38,7 @@ For Example: run these commands:
 
 `LinuxStatus a` for option 4.
 
-`LinuxStatus p r h a` mix options.
+Mix options for example `LinuxStatus p r c ` for option 1,2,4.
 
 
 After completing these steps, you should be able to run the LinuxStatus command from anywhere in your Linux terminal.
